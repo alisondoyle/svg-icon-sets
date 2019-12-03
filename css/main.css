@@ -1,0 +1,47 @@
+html {
+  font-family: Overpass, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+p {
+  color: #fff;
+}
+
+.card {
+  border-bottom: 3px solid rgba(255, 255, 255, .4);
+}
+
+.card:last-child {
+  border: none;
+}
+
+.btn,
+.btn-ghost {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .6);
+}
+
+.btn:hover {
+  color: #ff5e3a;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    border-right: 3px solid rgba(255, 255, 255, .4);
+    border-bottom: none;
+  }
+
+  .card:last-child {
+    border: none;
+  }
+
+}
